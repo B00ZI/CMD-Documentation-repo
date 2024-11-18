@@ -1,0 +1,196 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Command Prompt Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Command Prompt Documentation</header>
+      <a class="nav-link" href="#Introduction" >Introduction</a>
+      <a class="nav-link" href="#Why_Use_Command_Prompt?" >Why Use Command Prompt?</a>
+      <a class="nav-link" href="#File_and_Directory_Management" >File and Directory Management</a>
+      <a class="nav-link" href="#System_Information_and_Management" >System Information and Management</a>
+      <a class="nav-link" href="#Disk_and_Drive_Management" >Disk and Drive Management</a>
+      <a class="nav-link" href="#Network_and_Internet_Utilities" >Network and Internet Utilities</a>
+      <a class="nav-link" href="#File_Searching_and_Text_Processing" >File Searching and Text Processing</a>
+      <a class="nav-link" href="#Batch_and_Scripting_Utilities" >Batch and Scripting Utilities</a>
+      <a class="nav-link" href="#Security_and_Permissions" >Security and Permissions</a>
+      <a class="nav-link" href="#Utility_and_Troubleshooting" >Utility and Troubleshooting</a>
+      <a class="nav-link" href="#How_to_View_All_Commands_in_cmd?" >How to View All Commands in cmd?</a>
+    </nav>
+    <main id="main-doc">
+
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>The Command Prompt (cmd) is a command-line interpreter available on Windows operating systems. It allows users to interact with the system by executing commands, scripts, and batch files, making it a powerful tool for managing files, troubleshooting, and automating tasks.
+
+Originally developed as a part of MS-DOS, cmd has evolved into a robust utility for modern Windows systems. It is widely used by developers, IT professionals, and power users for tasks ranging from file management to network troubleshooting.</p>
+<p>When you first open Command Prompt (cmd) on Windows, you'll typically see a screen that looks like this:
+</p>
+<code>C:\Users\YourUsername></code>
+      </section>
+
+      <section class="main-section" id="Why_Use_Command_Prompt?">
+        <header>Why Use Command Prompt?</header>
+        <p>Command Prompt is favored for its:</p>
+        <ol>
+          <li>Efficiency: Perform tasks faster than with the graphical interface.</li>
+          <li>Automation: Automate repetitive tasks using batch scripts.</li>
+          <li>Power: Access advanced tools and features not available through the GUI.</li>
+          <li>Flexibility: Execute commands for system management, file processing, and networking.</li>
+        </ol>
+    <p>The echo command in cmd is used to display a line of text or output. By typing the words directly after echo, they will be displayed in the terminal. example:</p>
+        <code>echo Efficiency Automation Power Flexibility</code>
+        <p>the Output:</p>
+        <code>Efficiency Automation Power Flexibility</code>
+      </section>
+
+      <section class="main-section" id="File_and_Directory_Management">
+        <header>File and Directory Management</header>
+        <p>Commands for managing files and folders:</p>
+     <ul>
+  <li><span>assoc:</span> Display or change file type associations.</li>
+  <li><span>cd or chdir:</span> Change directory.</li>
+  <li><span>cls:</span> Clear the screen.</li>
+  <li><span>copy:</span> Copy one or more files.</li>
+  <li><span>del or erase:</span> Delete files.</li>
+  <li><span>dir:</span> Display directory contents.</li>
+  <li><span>exit:</span> Exit the Command Prompt.</li>
+  <li><span>fc:</span> Compare two files or sets of files.</li>
+  <li><span>mkdir or md:</span> Create a new directory.</li>
+  <li><span>move:</span> Move files or directories.</li>
+  <li><span>rmdir or rd:</span> Remove a directory.</li>
+  <li><span>rename or ren:</span> Rename a file or directory.</li>
+  <li><span>tree:</span> Graphically display folder structure.</li>
+  <li><span>type:</span> Display the contents of a text file.</li>
+  <li><span>xcopy:</span> Copy files and directories, including subdirectories.</li>
+</ul>
+
+      </section>
+
+      <section class="main-section" id="System_Information_and_Management">
+        <header>System Information and Management</header>
+        <p>Commands to check and manage the system:</p>
+        <ul>
+  <li><span>chkdsk:</span> Check a disk and display a status report.</li>
+  <li><span>diskpart:</span> Open the disk partition utility.</li>
+  <li><span>driverquery:</span> List all installed drivers.</li>
+  <li><span>echo:</span> Display messages or enable/disable command echoing.</li>
+  <li><span>hostname:</span> Display the computer's hostname.</li>
+  <li><span>ipconfig:</span> Display network configuration.</li>
+  <li><span>mode:</span> Configure system devices.</li>
+  <li><span>path:</span> Display or set the system path.</li>
+  <li><span>sfc:</span> Scan and repair system files.</li>
+  <li><span>systeminfo:</span> Display detailed system information.</li>
+  <li><span>tasklist:</span> Show currently running processes.</li>
+  <li><span>taskkill:</span> Kill a process by its PID or name.</li>
+  <li><span>ver:</span> Display the Windows version.</li>
+  <li><span>vol:</span> Display the volume label and serial number.</li>
+</ul>
+
+      </section>
+
+      <section class="main-section" id="Disk_and_Drive_Management">
+        <header>Disk and Drive Management</header>
+         
+        <p>Commands for managing drives and file systems:</p>
+        <ul>
+  <li><span>diskpart:</span> Manage disk partitions.</li>
+  <li><span>format:</span> Format a disk for use with Windows.</li>
+  <li><span>label:</span> Change the volume label.</li>
+  <li><span>mountvol:</span> Create, delete, or list a volume mount point.</li>
+</ul>
+
+      </section>
+
+      <section class="main-section" id="Network_and_Internet_Utilities">
+        <header>Network and Internet Utilities</header>
+        <p>Commands for networking and connectivity:</p>
+        <ul>
+  <li><span>arp:</span> Display or modify the ARP table.</li>
+  <li><span>ftp:</span> Open an FTP session.</li>
+  <li><span>getmac:</span> Display MAC addresses.</li>
+  <li><span>ipconfig:</span> Display IP configuration.</li>
+  <li><span>netstat:</span> Show network statistics and active connections.</li>
+  <li><span>nslookup:</span> Query DNS servers.</li>
+  <li><span>ping:</span> Test network connectivity.</li>
+  <li><span>route:</span> Display or modify routing tables.</li>
+  <li><span>tracert:</span> Trace the route to a host.</li>
+</ul>
+
+      </section>
+
+      <section class="main-section" id="File_Searching_and_Text_Processing">
+        <header>File Searching and Text Processing</header>
+        <p>Commands for finding files and processing text:</p>
+        <ul>
+  <li><span>find:</span> Search for a text string in a file.</li>
+  <li><span>findstr:</span> Search for strings using regular expressions.</li>
+  <li><span>for:</span> Loop through a set of files.</li>
+  <li><span>more:</span> Display text one screen at a time.</li>
+  <li><span>sort:</span> Sort text output.</li>
+</ul>
+
+      </section>
+
+      <section class="main-section" id="Batch_and_Scripting_Utilities">
+        <header>Batch and Scripting Utilities</header>
+        <p>Commands useful for writing scripts and automating tasks:</p>
+        <ul>
+  <li><span>call:</span> Call a batch file from another batch file.</li>
+  <li><span>choice:</span> Provide a selection menu in batch scripts.</li>
+  <li><span>for:</span> Loop through items in a batch script.</li>
+  <li><span>goto:</span> Jump to a labeled line in a script.</li>
+  <li><span>if:</span> Perform conditional operations.</li>
+  <li><span>pause:</span> Pause script execution and display a message.</li>
+  <li><span>set:</span> View, set, or remove environment variables.</li>
+  <li><span>start:</span> Open a new command prompt window to run a program.</li>
+</ul>
+
+      </section>
+
+      <section class="main-section" id="Security_and_Permissions">
+        <header>Security and Permissions</header>
+        <p>Commands for managing user permissions and system security:</p>
+        <ul>
+  <li><span>cacls:</span> Display or modify file access control lists (ACLs).</li>
+  <li><span>cipher:</span> Manage encryption and decryption of files.</li>
+  <li><span>net user:</span> Manage user accounts.</li>
+  <li><span>runas:</span> Run a program as another user.</li>
+  <li><span>whoami:</span> Display the current logged-in user.</li>
+</ul>
+
+      </section>
+
+      <section class="main-section" id="Utility_and_Troubleshooting">
+        <header>Utility and Troubleshooting</header>
+        <p>Commands for troubleshooting or additional utilities:</p>
+        <ul>
+  <li><span>attrib:</span> Display or modify file attributes.</li>
+  <li><span>chkntfs:</span> Display or modify disk check settings.</li>
+  <li><span>fc:</span> Compare two files.</li>
+  <li><span>fsutil:</span> Manage file systems and drives.</li>
+  <li><span>help:</span> Display help for commands.</li>
+  <li><span>shutdown:</span> Shut down or restart the computer.</li>
+</ul>
+
+      </section>
+
+      <section class="main-section" id="How_to_View_All_Commands_in_cmd?">
+        <header>How to View All Commands in cmd?</header>
+        <p>To get a complete list of commands directly in Command Prompt, type:</p>
+        <code>help</code>
+        <p>For detailed information about a specific command, use:</p>
+        <code>[command] /?</code>
+      </section>
+
+  
+     
+    </main>
+  </body>
+</html>
