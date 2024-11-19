@@ -3,76 +3,102 @@
     padding: 0px;
     margin:0px;
     box-sizing: border-box;
-    color: #333333;
+    color: #D3D3D3;
 }
 #navbar{
     font-family:monospace;
-    background-color: #222;
-    color: #fff;
+    background-color: #000000;
     height: 100vh;
     width:20%;
+    min-width:230px;
+    padding-right: 20px;
     position:fixed;
     top: 0px;
-    left: 0px;
+    left:0;
+    transition: 400ms ease;
+
 }
+#navbar:hover{
+    left:0;
+}
+
 #navbar header{
     font-size: 20px;
-    background-color: beige;
+    color: #FFFFFF;
+    background-color: #000000;
     text-align: center;
     padding:20px 10px;
 }
 #navbar .nav-link{
-    font-size: 15px;
-    font-weight: 500;
-
+    font-size: 17px;
+    font-weight: 550;
     text-decoration: none;
-    color: #2D9CDB;
+    max-width:300px;
+    color: #F8F8F2;
     display: block;
-    padding:20px 10px;
-    border-bottom:solid black 1px;
+    padding:5% 20px ;
+    border-bottom:solid #18181896 1px;
+    margin: auto;
+    transition: 400ms ease-out;
+    
 }
-#navbar .nav-link:active{
-    color: #a09797;
+#navbar .nav-link:hover{
+    color: #DC143C;
+    transform: scale(1.2);
 }
 /* ------------------------------------------ */
 #main-doc{
-    background-color:#F7F7F7;
+    background-color:#111111;
     padding:30px 5% 30px 25%;
-    font-family: "Courier Prime";
+    font-family: monospace;
 }
 #main-doc header{
-    font-family:monospace;
-    color: #FF5733  ;
+    
+    color: #FFFFFF  ;
+    font-weight: 600;
+    text-shadow:0px 0px 10px #000000;
     font-size: 25px;
     padding:20px 10px;
     margin:30px  0px 10px -5%;
     /* background-color: antiquewhite; */
 }
 #main-doc p{
+    color: #FFFFFF  ;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 550;
     padding:10px 15px;
 }
 #main-doc ul,ol{
     /* background-color: rgb(33, 36, 35); */
-    line-height:25px;
+    line-height:33px;
     font-weight: 500;
 }
 #main-doc span{
-    font-weight: 600;
-    font-style: italic;
-    background-color: #a09797;
-    /* color: #ffffffc2; */
-    padding:2px;
+    font-family: "Courier ";
+    font-weight: 700;
+    background-color: #a5a5a5;
+    color: #000000;
+    padding:2px 7px;
+    text-align: center;
     border-radius:5px;
 }
 
 code{
     display: block;
-    color:  #F8F8F2;
-    background-color: #2E2E2E;
-    width:400px;
+    color:  #ffffff;
+    background-color: #030303;
+    width:30%;
+    min-width: fit-content;
     padding: 10px;
     border-radius: 3px;
-    margin: auto;
+    margin:10px 30px;
+}
+@media (max-width: 900px) {
+    #main-doc{
+        background-color:#111111;
+        padding:30px 5% 30px 46%;
+       
+        font-family: monospace;
+} 
+
 }
